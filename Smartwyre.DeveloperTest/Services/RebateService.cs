@@ -19,7 +19,6 @@ public class RebateService : IRebateService
         _rebateCalculatorCreator =
             rebateCalculatorCreator
             ?? throw new ArgumentNullException(nameof(rebateCalculatorCreator));
-        ;
         _productDataStore =
             productDataStore ?? throw new ArgumentNullException(nameof(productDataStore));
         _rebateDataStore =
